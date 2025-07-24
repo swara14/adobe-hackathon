@@ -1,0 +1,55 @@
+{
+  "title": "5G/6G Cloud Network - IP Report",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "5G/6G Cloud Network - IP Report",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "EdgeRIC: Empowering Realtime Intelligent Optimization and",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Control in NextG Cellular Networks",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "NS-3 ORAN:",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "​",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "SD-RAN-in-a-Box and xApp Integration",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "ONOS API and Custom xApp Development",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Partial completion of CUDA course offered by Oak Ridge National",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Laboratory",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Docker and Kubernetes:",
+      "page": 14
+    }
+  ]
+}
