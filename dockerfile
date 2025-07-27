@@ -1,17 +1,16 @@
-# Use a lightweight base image
-FROM python:3.9-slim
+# syntax=docker/dockerfile:1
+FROM --platform=linux/amd64 python:3.10-slim
 
-# Set working directory
 WORKDIR /app
 
+# Copy all files
+COPY . .
+
 # Install dependencies
-RUN pip install --no-cache-dir PyMuPDF==1.23.7
+RUN pip install --no-cache-dir pymupdf
 
-# Copy the main script
-COPY main.py /app/
+# Create input/output dirs
+RUN mkdir -p input output
 
-# Ensure input/output directories exist
-RUN mkdir -p /app/input /app/output
-
-# Command to run the script
-CMD ["python", "main.py"]
+# Set entrypoint
+CMD ["python", "test_without_docker.py"]
