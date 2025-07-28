@@ -42,7 +42,7 @@ Place the following in the `input/` directory:
 }
 ```
 
-> **Note:** You do not need to include the actual `.pdf` files in the submission. Evaluation will be conducted with separate test files provided by judges.
+> 
 
 ---
 
@@ -137,5 +137,5 @@ All dependencies are installed in the Docker image.
 
 ## Contact
 
-For questions or feedback, please contact: [yourname@example.com]
+For questions or feedback, please contact: annika22082@iiitd.ac.in, swara22524@iiitd.ac.in
 
