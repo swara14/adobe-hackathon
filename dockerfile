@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir pymupdf
 RUN mkdir -p input output
 
 # Set entrypoint
-CMD ["python", "test_without_docker.py"]
+CMD ["python", "heading_extractor.py"]
