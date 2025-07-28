@@ -104,12 +104,12 @@ docker run --rm \
 ### Windows PowerShell:
 
 ```powershell
-docker run --rm ^
-  -v ${PWD}/input:/app/input ^
-  -v ${PWD}/output:/app/output ^
-  --network none ^
+docker run --rm `
+  -v "${PWD}\input:/app/input" `
+  -v "${PWD}\output:/app/output" `
+  --network "none" `
   round1b-solution:latest
-```
+
 
 ---
 
