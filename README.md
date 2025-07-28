@@ -109,6 +109,7 @@ docker run --rm `
   -v "${PWD}\output:/app/output" `
   --network "none" `
   round1b-solution:latest
+```
 
 
 ---
