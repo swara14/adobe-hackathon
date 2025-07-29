@@ -1,4 +1,4 @@
-# Adobe India Hackathon 2025 – Round 1A Submission
+# Adobe India Hackathon 2025 – Submission
 
 ## Challenge: Round 1A – Understand Your Document
 
